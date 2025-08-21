@@ -14,9 +14,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@bull-board/express": "^6.12.1",
+    "@bull-board/express": "^6.12.4",
     "bcrypt": "^6.0.0",
-    "bullmq": "^5.58.0",
+    "bull": "^4.16.5",
     "dotenv": "^17.2.1",
     "env": "^0.0.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
