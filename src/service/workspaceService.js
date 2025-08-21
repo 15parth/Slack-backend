@@ -224,7 +224,7 @@ export const addMemberToWorkspaceService = async (
       ...workspaceJoinMail(workspace),
       to: isValidUser.email
     })
- 
+
     return response
   } catch (error) {
     console.log('addMemberToWorkspaceService error', error)
