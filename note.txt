@@ -1,0 +1,42 @@
+# 📝 Project Pending Tasks - Express.js
+
+## ✅ Format:
+- [ ] Task Description [CATEGORY] [STATUS] (Deadline)
+- [x] Completed Task Example [Backend] [DONE] (Aug 5)
+
+---
+
+## 🚧 Backend
+- [ ] Implement input validation using Zod [Backend] [PENDING] (Aug 12)
+- [x] Fix CORS issue in development [Backend] [DONE] (Aug 6)
+- [ ] Add logging middleware with winston [Backend] [IN_PROGRESS]
+- [ ] update workspace and addmember to workspace (lecture-7 part 1 update workspace add member is in the previous one)
+- [ ] add channel to workspace (lecture 7  part 1)
+- [ ] channel
+
+## 🌐 API Routes
+- [ ] Refactor /users route controller logic [API] [PENDING]
+- [ ] Add pagination to /orders endpoint [API] [PENDING]
+- [ ] Swagger API documentation setup [API] [BLOCKED] (Waiting for spec approval)
+
+## 🗃️ Database
+- [ ] Add index on email field in users collection [Database] [PENDING]
+- [ ] Write initial data seeding script [Database] [PENDING] (Aug 11)
+- [ ] Setup MongoDB transactions for critical flows [Database] [PENDING]
+
+## 🎨 Frontend (if applicable)
+- [ ]
+- [ ] 
+
+## 🔐 Security
+- [ ] Use helmet for basic security headers [Security] [PENDING]
+- [ ] Sanitize all user input [Security] [PENDING]
+- [ ] Rate limit login endpoint [Security] [IN_PROGRESS]
+
+## 🧪 Testing
+- [ ] Add unit tests for user controller [Testing] [PENDING]
+- [ ] Setup integration tests using supertest [Testing] [PENDING]
+
+## 🧹 Bugs / Misc
+- [ ] Issue in the creation of workspace API
+
