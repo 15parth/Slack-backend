@@ -1,9 +1,9 @@
 import { StatusCodes } from 'http-status-codes'
 
-import userRepository from '../repositories/userRepository'
-import workspaceRepository from '../repositories/workspaceRepository'
-import ClientError from '../utils/errors/clientError'
-import { isUserMemberOfWorkspace } from './workspaceService'
+import userRepository from '../repositories/userRepository.js'
+import workspaceRepository from '../repositories/workspaceRepository.js'
+import ClientError from '../utils/errors/clientError.js'
+import { isUserMemberOfWorkspace } from './workspaceService.js'
 
 export const isMemberPartOfWorkspaceService = async (workspaceId, memberId) => {
   const workspace = await workspaceRepository.getById(workspaceId)
